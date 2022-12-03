@@ -6,7 +6,7 @@
 
 namespace Grid_game
 {
-
+    //move direction & check if barrier
     void Token::move(direction dir){  
         int xPrevious = x; 
         int yPrevious = y; 
@@ -67,7 +67,7 @@ namespace Grid_game
            if(terr == 0) {
                 return;
             } 
-            //wall / barrier
+            //wall/barrier
             if(terr == 1) {
                 return;
             }
